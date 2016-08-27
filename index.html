@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOEBE @ SWWAW</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">PHOEBE</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns" style="text-align: center">
+        <h1>W DUPU BANKI</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+        <div class="callout">
+          <h5>Send money</h5>
+          <form>
+            <div class="row">
+              <div class="large-5 medium-5 columns">
+                <div class="row collapse">
+                  <label>Amount</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="1000" class="input-group-field float-left" style="text-align: right; width: 70%;" />
+                    <select style="width: 30%;" class="float-right">
+                      <option value="EUR">EUR</option>
+                      <option value="GBP">GBP</option>
+                      <option value="USD">USD</option>
+                      <option value="PLN">PLN</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="large-5 medium-5 columns">
+                <div class="row collapse">
+                  <label>Recipient</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="john.doe@gmail.com" class="input-group-field float-left  " />
+                  </div>
+                </div>
+              </div>
+              <div class="large-2 medium-2 columns">
+                <label>&nbsp;</label>
+                <p><a href="#" class="button" style="width: 100%;">Send</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="callout">
+          <h5>Convert money</h5>
+          <form>
+            <div class="row">
+              <div class="large-5 medium-5 columns">
+                <div class="row collapse">
+                  <label>From</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="1000" class="input-group-field float-left" style="text-align: right; width: 70%;" />
+                    <select style="width: 30%;" class="float-right">
+                      <option value="EUR">EUR</option>
+                      <option value="GBP">GBP</option>
+                      <option value="USD">USD</option>
+                      <option value="PLN">PLN</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="large-5 medium-5 columns">
+                <div class="row collapse">
+                  <label>To</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="13.37" class="input-group-field float-left" style="text-align: right; width: 70%;" />
+                    <select style="width: 30%;" class="float-roght">
+                      <option value="EUR">EUR</option>
+                      <option value="GBP">GBP</option>
+                      <option value="USD">USD</option>
+                      <option value="PLN">PLN</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="large-2 medium-2 columns">
+                <label>&nbsp;</label>
+                <p><a href="#" class="button" style="width: 100%;">Send</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="large-3 medium-3 columns">
+        <div class="callout">
+          <label style="text-align: right">Your Balance:</label>
+          <div class="input-group">
+            <input type="text" placeholder="0.00" class="input-group-field" value="21.37" style="text-align: right" />
+            <span class="input-group-label">USD</span>
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="input-group-field" value="12.14" style="text-align: right" />
+            <span class="input-group-label">EUR</span>
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="input-group-field" value="13.37" style="text-align: right" />
+            <span class="input-group-label">GBP</span>
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="input-group-field" value="12.13" style="text-align: right" />
+            <span class="input-group-label">USD</span>
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="input-group-field" value="77.22" style="text-align: right" />
+            <span class="input-group-label">PLN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
